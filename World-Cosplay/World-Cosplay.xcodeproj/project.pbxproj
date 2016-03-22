@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		FF1459051CA06F8B007009B8 /* PhotoRecord.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF1459041CA06F8B007009B8 /* PhotoRecord.swift */; };
+		FF1459071CA06FB9007009B8 /* PhotoOperations.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF1459061CA06FB9007009B8 /* PhotoOperations.swift */; };
 		FF3718D21CA00F0A00C1485E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF3718D11CA00F0A00C1485E /* AppDelegate.swift */; };
 		FF3718D71CA00F0A00C1485E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FF3718D51CA00F0A00C1485E /* Main.storyboard */; };
 		FF3718D91CA00F0A00C1485E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FF3718D81CA00F0A00C1485E /* Assets.xcassets */; };
@@ -20,6 +22,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		FF1459041CA06F8B007009B8 /* PhotoRecord.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PhotoRecord.swift; sourceTree = "<group>"; };
+		FF1459061CA06FB9007009B8 /* PhotoOperations.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PhotoOperations.swift; sourceTree = "<group>"; };
 		FF3718CE1CA00F0A00C1485E /* World-Cosplay.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "World-Cosplay.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		FF3718D11CA00F0A00C1485E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		FF3718D61CA00F0A00C1485E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -75,6 +79,8 @@
 				FF3718ED1CA048B000C1485E /* 1.jpg */,
 				FF3718E71CA0181300C1485E /* allsViewController.swift */,
 				FF3718E91CA01A4900C1485E /* Reachability.swift */,
+				FF1459041CA06F8B007009B8 /* PhotoRecord.swift */,
+				FF1459061CA06FB9007009B8 /* PhotoOperations.swift */,
 			);
 			path = "World-Cosplay";
 			sourceTree = "<group>";
@@ -158,6 +164,8 @@
 				FF3718E81CA0181300C1485E /* allsViewController.swift in Sources */,
 				FF3718E61CA017F200C1485E /* oddTableViewCell.swift in Sources */,
 				FF3718EC1CA0464200C1485E /* LazyImage.swift in Sources */,
+				FF1459071CA06FB9007009B8 /* PhotoOperations.swift in Sources */,
+				FF1459051CA06F8B007009B8 /* PhotoRecord.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -313,6 +321,7 @@
 				FF3718E21CA00F0A00C1485E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
